@@ -1,0 +1,121 @@
+.row {
+    margin-bottom: 2rem;
+    .col-md-3 {
+        @media (max-width: 768.98px) {
+            order: 2;
+        }
+        .right {
+            .post-right {
+                padding-bottom: 4px;
+                border-bottom: 1.5px solid #acacac;
+                .img-right {
+                    .en-lion {
+                        border-radius: 8px;
+                        max-width: 100%;
+                    }
+                }
+                .label-right {
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 500;
+                    color: #000;
+                }
+                .title-right {
+                    font-family: "YB-Heavy";
+                    font-size: clamp(1.2rem, 2vw, 1.8rem);
+                }
+                .p-right {
+                    font-family: "YB-Medium";
+                    font-size: clamp(0.9rem, 1.1vw, 1.4rem);
+                    margin-bottom: 4px;
+                }
+                .by-right {
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 500;
+                    color: #000;
+                }
+            }
+
+        }
+        .left {
+            @media (max-width: 768.98px) {
+                padding-top: 12px;
+                border-top: 1.5px solid #acacac;
+            }
+            // @media (min-width: 768.98px) {
+            //     padding-right: 12px;
+            //     border-right: 1.5px solid #acacac;
+            //   }
+            .post-left {
+                .img-left {
+                    .en-lion {
+                        border-radius: 8px;
+                        max-width: 100%;
+                    }
+                    .jpn {
+                        border-radius: 8px;
+                        max-width: 100%;
+                        @media (max-width: 768.98px) {
+                            max-width: 95.5%;
+                        }
+                    }
+                }
+                .label-left {
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 500;
+                    color: #000;
+                }
+                .title-left {
+                    font-family: "YB-Heavy";
+                    font-size: clamp(1.2rem, 2vw, 1.8rem);
+                }
+                .p-left {
+                    font-family: "YB-Medium";
+                    font-size: clamp(0.9rem, 1.1vw, 1.4rem);
+                    margin-bottom: 4px;
+                }
+                .by-left {
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 500;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .col-md-6 {
+        @media (max-width: 768.98px) {
+            order: 1;
+        }
+        border-left: 1.5px solid #acacac;
+        border-right: 1.5px solid #acacac;
+        .middle {
+            .post-middle {
+                margin-bottom: 0.8rem;
+                .img-middle {
+                    border-radius: 8px;
+                    max-width: 100%;
+                }
+                .label-middle {
+                    text-align: end;
+                    display: block;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 500;
+                    color: #000;
+                }
+                .title-middle {
+                    font-family: "YB-Heavy";
+                    font-size: clamp(1.2rem, 2vw, 1.8rem);
+                }
+                .p-middle {
+                    font-family: "YB-Medium";
+                    font-size: clamp(0.9rem, 1.1vw, 1.4rem);
+                    margin-bottom: 4px;
+                }
+                .by-middle {
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 500;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
