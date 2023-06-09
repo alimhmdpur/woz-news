@@ -101,6 +101,7 @@
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   color: #000;
+  text-align: left;
 }
 .row .col-md-3 .right .post-right .title-right {
   font-family: "YB-Heavy";
