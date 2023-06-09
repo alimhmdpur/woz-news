@@ -7,7 +7,9 @@
         .right {
             .post-right {
                 padding-bottom: 4px;
-                border-bottom: 1.5px solid #acacac;
+                @media(min-width:768.98px) {
+                    border-bottom: 1.5px solid #acacac;
+                }
                 .img-right {
                     .en-lion {
                         border-radius: 8px;
@@ -85,8 +87,13 @@
         @media (max-width: 768.98px) {
             order: 1;
         }
-        border-left: 1.5px solid #acacac;
-        border-right: 1.5px solid #acacac;
+        @media(min-width:768.98px) {
+            border-left: 1.5px solid #acacac;
+            border-right: 1.5px solid #acacac;
+        }
+        @media(max-width:768.98px) {
+            padding-top: 10px;
+        }
         .middle {
             .post-middle {
                 margin-bottom: 0.8rem;

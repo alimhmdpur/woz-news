@@ -1,4 +1,33 @@
 .footer-box {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
     padding-top: 1rem;
     border-top: 1.5px solid #acacac;
+    .box-left {
+        .footer-logo {
+            max-width: 7rem;
+        }
+        @media(max-width:768.98px) {
+            margin-bottom: 2rem;
+        }
+    }
+    .d-flex {
+        gap: 3rem;
+        .listbox-footer {
+            .list-title {
+            }
+            .list-footer {
+                list-style-type: none;
+                padding: 0;
+                .item-footer {
+                    text-align: left;
+                    font-weight: 400;
+                    a {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
 }
