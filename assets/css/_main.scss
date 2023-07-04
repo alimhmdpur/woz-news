@@ -1,6 +1,6 @@
 .row {
   margin-bottom: 2rem;
-  .col-md-3 {
+  .gosh {
     @media (max-width: 768.98px) {
       order: 2;
     }
@@ -61,29 +61,34 @@
             }
           }
         }
-        .label-left {
-          font-family: "Ubuntu", sans-serif;
-          font-weight: 500;
-          color: #000;
-        }
-        .title-left {
-          font-family: "YB-Heavy";
-          font-size: clamp(1.2rem, 2vw, 1.8rem);
-        }
-        .p-left {
-          font-family: "YB-Medium";
-          font-size: clamp(0.9rem, 1.1vw, 1.4rem);
-          margin-bottom: 4px;
-        }
-        .by-left {
-          font-family: "Ubuntu", sans-serif;
-          font-weight: 500;
-          color: #000;
+        .post-info-left {
+          @media(max-width:768.98px){
+            max-width: 65%;
+          }
+          .label-left {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            color: #000;
+          }
+          .title-left {
+            font-family: "YB-Heavy";
+            font-size: clamp(1.2rem, 2vw, 1.8rem);
+          }
+          .p-left {
+            font-family: "YB-Medium";
+            font-size: clamp(0.9rem, 1.1vw, 1.4rem);
+            margin-bottom: 4px;
+          }
+          .by-left {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            color: #000;
+          }
         }
       }
     }
   }
-  .col-md-6 {
+  .vasat {
     @media (max-width: 768.98px) {
       order: 1;
     }

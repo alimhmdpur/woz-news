@@ -81,120 +81,125 @@
   margin-bottom: 2rem;
 }
 @media (max-width: 768.98px) {
-  .row .col-md-3 {
+  .row .gosh {
     order: 2;
   }
 }
-.row .col-md-3 .right .post-right {
+.row .gosh .right .post-right {
   padding-bottom: 4px;
 }
 @media (min-width: 768.98px) {
-  .row .col-md-3 .right .post-right {
+  .row .gosh .right .post-right {
     border-bottom: 1.5px solid #acacac;
   }
 }
-.row .col-md-3 .right .post-right .img-right .en-lion {
+.row .gosh .right .post-right .img-right .en-lion {
   border-radius: 8px;
   max-width: 100%;
 }
-.row .col-md-3 .right .post-right .label-right {
+.row .gosh .right .post-right .label-right {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   color: #000;
   text-align: left;
 }
-.row .col-md-3 .right .post-right .title-right {
+.row .gosh .right .post-right .title-right {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
 }
-.row .col-md-3 .right .post-right .p-right {
+.row .gosh .right .post-right .p-right {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
 }
-.row .col-md-3 .right .post-right .by-right {
+.row .gosh .right .post-right .by-right {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   color: #000;
 }
 @media (max-width: 768.98px) {
-  .row .col-md-3 .left {
+  .row .gosh .left {
     padding-top: 12px;
     border-top: 1.5px solid #acacac;
   }
 }
-.row .col-md-3 .left .post-left .img-left .en-lion {
+.row .gosh .left .post-left .img-left .en-lion {
   border-radius: 8px;
   max-width: 100%;
 }
-.row .col-md-3 .left .post-left .img-left .jpn {
+.row .gosh .left .post-left .img-left .jpn {
   border-radius: 8px;
   max-width: 100%;
 }
 @media (max-width: 768.98px) {
-  .row .col-md-3 .left .post-left .img-left .jpn {
+  .row .gosh .left .post-left .img-left .jpn {
     max-width: 95.5%;
   }
 }
-.row .col-md-3 .left .post-left .label-left {
+@media (max-width: 768.98px) {
+  .row .gosh .left .post-left .post-info-left {
+    max-width: 65%;
+  }
+}
+.row .gosh .left .post-left .post-info-left .label-left {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   color: #000;
 }
-.row .col-md-3 .left .post-left .title-left {
+.row .gosh .left .post-left .post-info-left .title-left {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
 }
-.row .col-md-3 .left .post-left .p-left {
+.row .gosh .left .post-left .post-info-left .p-left {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
 }
-.row .col-md-3 .left .post-left .by-left {
+.row .gosh .left .post-left .post-info-left .by-left {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   color: #000;
 }
 @media (max-width: 768.98px) {
-  .row .col-md-6 {
+  .row .vasat {
     order: 1;
   }
 }
 @media (min-width: 768.98px) {
-  .row .col-md-6 {
+  .row .vasat {
     border-left: 1.5px solid #acacac;
     border-right: 1.5px solid #acacac;
   }
 }
 @media (max-width: 768.98px) {
-  .row .col-md-6 {
+  .row .vasat {
     padding-top: 10px;
   }
 }
-.row .col-md-6 .middle .post-middle {
+.row .vasat .middle .post-middle {
   margin-bottom: 0.8rem;
 }
-.row .col-md-6 .middle .post-middle .img-middle {
+.row .vasat .middle .post-middle .img-middle {
   border-radius: 8px;
   max-width: 100%;
 }
-.row .col-md-6 .middle .post-middle .label-middle {
+.row .vasat .middle .post-middle .label-middle {
   text-align: end;
   display: block;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   color: #000;
 }
-.row .col-md-6 .middle .post-middle .title-middle {
+.row .vasat .middle .post-middle .title-middle {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
 }
-.row .col-md-6 .middle .post-middle .p-middle {
+.row .vasat .middle .post-middle .p-middle {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
 }
-.row .col-md-6 .middle .post-middle .by-middle {
+.row .vasat .middle .post-middle .by-middle {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   color: #000;
