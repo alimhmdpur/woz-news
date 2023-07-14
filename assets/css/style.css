@@ -257,4 +257,9 @@
 .footer-box .d-flex .listbox-footer .list-footer .item-footer a {
   color: #000;
   text-decoration: none;
+}
+
+.img-Sheikh {
+  max-width: 100%;
+  border-radius: 12px;
 }/*# sourceMappingURL=style.css.map */
