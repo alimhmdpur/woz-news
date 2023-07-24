@@ -19,22 +19,24 @@
         .label-right {
           font-family: "Ubuntu", sans-serif;
           font-weight: 500;
-          color: #000;
+          color: #fff;
           text-align: left;
         }
         .title-right {
           font-family: "YB-Heavy";
           font-size: clamp(1.2rem, 2vw, 1.8rem);
+          color: #fff;
         }
         .p-right {
           font-family: "YB-Medium";
           font-size: clamp(0.9rem, 1.1vw, 1.4rem);
           margin-bottom: 4px;
+          color: #fff;
         }
         .by-right {
           font-family: "Ubuntu", sans-serif;
           font-weight: 500;
-          color: #000;
+          color: #fff;
         }
       }
     }
@@ -68,21 +70,23 @@
           .label-left {
             font-family: "Ubuntu", sans-serif;
             font-weight: 500;
-            color: #000;
+            color: #fff;
           }
           .title-left {
             font-family: "YB-Heavy";
             font-size: clamp(1.2rem, 2vw, 1.8rem);
+            color: #fff;
           }
           .p-left {
             font-family: "YB-Medium";
             font-size: clamp(0.9rem, 1.1vw, 1.4rem);
             margin-bottom: 4px;
+            color: #fff;
           }
           .by-left {
             font-family: "Ubuntu", sans-serif;
             font-weight: 500;
-            color: #000;
+            color: #fff;
           }
         }
       }
@@ -113,21 +117,23 @@
           display: block;
           font-family: "Ubuntu", sans-serif;
           font-weight: 500;
-          color: #000;
+          color: #6f6f6f;
         }
         .title-middle {
           font-family: "YB-Heavy";
           font-size: clamp(1.2rem, 2vw, 1.8rem);
+          color: #6f6f6f;
         }
         .p-middle {
           font-family: "YB-Medium";
           font-size: clamp(0.9rem, 1.1vw, 1.4rem);
           margin-bottom: 4px;
+          color: #6f6f6f;
         }
         .by-middle {
           font-family: "Ubuntu", sans-serif;
           font-weight: 500;
-          color: #000;
+          color: #6f6f6f;
         }
       }
     }

@@ -10,49 +10,49 @@
   }
 }
 @media (max-width: 768.98px) {
-  .navbar .container-lg .container-fluid .wof {
+  .navbar .container-fluid .wof {
     display: none !important;
   }
 }
-.navbar .container-lg .container-fluid .navbar-toggler {
+.navbar .container-fluid .navbar-toggler {
   border-style: none !important;
   padding: 0;
 }
-.navbar .container-lg .container-fluid .navbar-toggler .logo {
+.navbar .container-fluid .navbar-toggler .logo {
   border-style: none !important;
 }
-.navbar .container-lg .container-fluid .offcanvas .offcanvas-body .media .telegram {
+.navbar .container-fluid .offcanvas .offcanvas-body .media .telegram {
   background-color: #0088cc;
   border-radius: 10px;
   padding: 4px 8px;
 }
-.navbar .container-lg .container-fluid .offcanvas .offcanvas-body .media .telegram .media-link {
+.navbar .container-fluid .offcanvas .offcanvas-body .media .telegram .media-link {
   text-decoration: none;
   color: #fff;
 }
-.navbar .container-lg .container-fluid .offcanvas .offcanvas-body .media .instagram {
+.navbar .container-fluid .offcanvas .offcanvas-body .media .instagram {
   background: #f09433;
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
   border-radius: 10px;
   padding: 4px 8px;
 }
-.navbar .container-lg .container-fluid .offcanvas .offcanvas-body .media .instagram .media-link {
+.navbar .container-fluid .offcanvas .offcanvas-body .media .instagram .media-link {
   text-decoration: none;
   color: #fff;
 }
-.navbar .container-lg .container-fluid .offcanvas .offcanvas-body .title-list {
+.navbar .container-fluid .offcanvas .offcanvas-body .title-list {
   padding: 20px 0;
   list-style-type: none;
 }
-.navbar .container-lg .container-fluid .offcanvas .offcanvas-body .title-list .title {
+.navbar .container-fluid .offcanvas .offcanvas-body .title-list .title {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   padding: 6px 8px;
   border-bottom: 1px solid #acacac;
   text-align: left;
 }
-.navbar .container-lg .container-fluid .offcanvas .offcanvas-body .title-list .title .title-link {
+.navbar .container-fluid .offcanvas .offcanvas-body .title-list .title .title-link {
   text-decoration: none;
   color: #000;
 }
@@ -108,22 +108,24 @@
 .row .gosh .right .post-right .label-right {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #fff;
   text-align: left;
 }
 .row .gosh .right .post-right .title-right {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
+  color: #fff;
 }
 .row .gosh .right .post-right .p-right {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
+  color: #fff;
 }
 .row .gosh .right .post-right .by-right {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #fff;
 }
 @media (max-width: 768.98px) {
   .row .gosh .left {
@@ -152,21 +154,23 @@
 .row .gosh .left .post-left .post-info-left .label-left {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #fff;
 }
 .row .gosh .left .post-left .post-info-left .title-left {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
+  color: #fff;
 }
 .row .gosh .left .post-left .post-info-left .p-left {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
+  color: #fff;
 }
 .row .gosh .left .post-left .post-info-left .by-left {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #fff;
 }
 @media (max-width: 768.98px) {
   .row .vasat {
@@ -196,21 +200,23 @@
   display: block;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #6f6f6f;
 }
 .row .vasat .middle .post-middle .title-middle {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
+  color: #6f6f6f;
 }
 .row .vasat .middle .post-middle .p-middle {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
+  color: #6f6f6f;
 }
 .row .vasat .middle .post-middle .by-middle {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #6f6f6f;
 }
 
 .longNews {
@@ -244,6 +250,9 @@
   font-weight: 700;
   padding: 1.5rem;
 }
+.footer-box .box-left {
+  color: #000;
+}
 .footer-box .box-left .footer-logo {
   max-width: 7rem;
 }
@@ -255,6 +264,9 @@
 .footer-box .d-flex {
   gap: 3rem;
 }
+.footer-box .d-flex .listbox-footer .list-title {
+  color: #000;
+}
 .footer-box .d-flex .listbox-footer .list-footer {
   list-style-type: none;
   padding: 0;
@@ -262,6 +274,7 @@
 .footer-box .d-flex .listbox-footer .list-footer .item-footer {
   text-align: left;
   font-weight: 400;
+  color: #000;
 }
 .footer-box .d-flex .listbox-footer .list-footer .item-footer a {
   color: #000;
