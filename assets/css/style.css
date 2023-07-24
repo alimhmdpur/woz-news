@@ -108,24 +108,24 @@
 .row .gosh .right .post-right .label-right {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #dfdfdf;
   text-align: left;
 }
 .row .gosh .right .post-right .title-right {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
-  color: #fff;
+  color: #dfdfdf;
 }
 .row .gosh .right .post-right .p-right {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
-  color: #fff;
+  color: #dfdfdf;
 }
 .row .gosh .right .post-right .by-right {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #dfdfdf;
 }
 @media (max-width: 768.98px) {
   .row .gosh .left {
@@ -154,23 +154,23 @@
 .row .gosh .left .post-left .post-info-left .label-left {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #dfdfdf;
 }
 .row .gosh .left .post-left .post-info-left .title-left {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
-  color: #fff;
+  color: #dfdfdf;
 }
 .row .gosh .left .post-left .post-info-left .p-left {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
-  color: #fff;
+  color: #dfdfdf;
 }
 .row .gosh .left .post-left .post-info-left .by-left {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #dfdfdf;
 }
 @media (max-width: 768.98px) {
   .row .vasat {
@@ -200,23 +200,23 @@
   display: block;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #6f6f6f;
+  color: #dfdfdf;
 }
 .row .vasat .middle .post-middle .title-middle {
   font-family: "YB-Heavy";
   font-size: clamp(1.2rem, 2vw, 1.8rem);
-  color: #6f6f6f;
+  color: #dfdfdf;
 }
 .row .vasat .middle .post-middle .p-middle {
   font-family: "YB-Medium";
   font-size: clamp(0.9rem, 1.1vw, 1.4rem);
   margin-bottom: 4px;
-  color: #6f6f6f;
+  color: #dfdfdf;
 }
 .row .vasat .middle .post-middle .by-middle {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #6f6f6f;
+  color: #dfdfdf;
 }
 
 .longNews {
