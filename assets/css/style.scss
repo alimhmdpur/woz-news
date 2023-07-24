@@ -2,6 +2,15 @@
 @import "main";
 @import "footer";
 
+body {
+    background-color: #181818;
+}
+footer {
+    // background-image: linear-gradient(to right, #181818, #330000aa, #440000aa, #550000aa, #550000aa, #660000aa, #550000aa, #550000aa, #440000aa, #330000aa, #181818);
+    
+    // padding: 0 0.2rem;
+    margin-bottom: 1rem;
+}
 .img-Sheikh {
     max-width: 100%;
     border-radius: 12px;

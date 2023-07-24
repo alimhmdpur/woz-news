@@ -8,7 +8,7 @@
       .post-right {
         padding-bottom: 4px;
         @media (min-width: 768.98px) {
-          border-bottom: 1.5px solid #acacac;
+          border-bottom: 2x solid #660000aa;
         }
         .img-right {
           .en-lion {
@@ -41,7 +41,7 @@
     .left {
       @media (max-width: 768.98px) {
         padding-top: 12px;
-        border-top: 1.5px solid #acacac;
+        border-top: 2px solid #660000aa;
       }
       // @media (min-width: 768.98px) {
       //     padding-right: 12px;
@@ -93,8 +93,8 @@
       order: 1;
     }
     @media (min-width: 768.98px) {
-      border-left: 1.5px solid #acacac;
-      border-right: 1.5px solid #acacac;
+      border-left: 2px solid #660000aa;
+      border-right: 2px solid #660000aa;
     }
     @media (max-width: 768.98px) {
       padding-top: 10px;
