@@ -14,6 +14,12 @@
     display: none !important;
   }
 }
+.navbar .container-fluid .wof .navbar-brand {
+  color: #dfdfdf;
+}
+.navbar .container-fluid .woz .navbar-brand {
+  color: #dfdfdf;
+}
 .navbar .container-fluid .navbar-toggler {
   border-style: none !important;
   padding: 0;
@@ -245,13 +251,15 @@
 }
 .footer-box {
   border-radius: 1rem;
+  border-top-left-radius: 6rem;
+  border-bottom-right-radius: 6rem;
   background-color: rgba(102, 0, 0, 0.6666666667);
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   padding: 1.5rem;
 }
 .footer-box .box-left {
-  color: #000;
+  color: #090909;
 }
 .footer-box .box-left .footer-logo {
   max-width: 7rem;
@@ -265,7 +273,7 @@
   gap: 3rem;
 }
 .footer-box .d-flex .listbox-footer .list-title {
-  color: #000;
+  color: #090909;
 }
 .footer-box .d-flex .listbox-footer .list-footer {
   list-style-type: none;
@@ -274,11 +282,44 @@
 .footer-box .d-flex .listbox-footer .list-footer .item-footer {
   text-align: left;
   font-weight: 400;
-  color: #000;
+  color: #090909;
 }
 .footer-box .d-flex .listbox-footer .list-footer .item-footer a {
-  color: #000;
+  color: #090909;
   text-decoration: none;
+}
+
+.c-1 .c-11 .img-team-slider .imgTeam {
+  max-width: 100%;
+}
+.c-1 .c-11 .img-team-slider .imgTeam .swiper-wrapper {
+  max-width: 100%;
+}
+.c-1 .c-11 .img-team-slider .imgTeam .swiper-wrapper .swiper-slide {
+  max-width: 100%;
+}
+.c-1 .c-11 .img-team-slider .imgTeam .swiper-wrapper .swiper-slide .team-img {
+  max-width: 100%;
+}
+.c-1 .c-11 .text-team-slider .discTeam .swiper-wrapper .swiper-slide .disc-team {
+  width: 10rem;
+  background-color: #181818;
+}
+.c-1 .c-12 .c-121 .img-team-slider .imgTeam {
+  max-width: 100%;
+}
+.c-1 .c-12 .c-121 .img-team-slider .imgTeam .swiper-wrapper {
+  max-width: 100%;
+}
+.c-1 .c-12 .c-121 .img-team-slider .imgTeam .swiper-wrapper .swiper-slide {
+  max-width: 100%;
+}
+.c-1 .c-12 .c-121 .img-team-slider .imgTeam .swiper-wrapper .swiper-slide .team-img {
+  max-width: 100%;
+}
+.c-1 .c-12 .c-121 .text-team-slider .discTeam .swiper-wrapper .swiper-slide .disc-team {
+  width: 10rem;
+  background-color: #181818;
 }
 
 body {

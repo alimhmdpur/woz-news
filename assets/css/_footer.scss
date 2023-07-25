@@ -1,12 +1,14 @@
 .footer-box {
     border-radius: 1rem;
+    border-top-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
     background-color: #660000aa;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     padding: 1.5rem;
     // border: 1.5px solid #acacac;
     .box-left {
-        color: #000;
+        color: #090909;
         .footer-logo {
             max-width: 7rem;
         }
@@ -18,7 +20,7 @@
         gap: 3rem;
         .listbox-footer {
             .list-title {
-                color: #000;
+                color: #090909;
             }
             .list-footer {
                 list-style-type: none;
@@ -26,9 +28,9 @@
                 .item-footer {
                     text-align: left;
                     font-weight: 400;
-                    color: #000;
+                    color: #090909;
                     a {
-                        color: #000;
+                        color: #090909;
                         text-decoration: none;
                     }
                 }
