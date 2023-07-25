@@ -60,7 +60,7 @@
 }
 .navbar .container-fluid .offcanvas .offcanvas-body .title-list .title .title-link {
   text-decoration: none;
-  color: #000;
+  color: #dfdfdf;
 }
 
 .header-main {
@@ -88,7 +88,7 @@
 }
 .header-main .title-list .title .title-link {
   text-decoration: none;
-  color: black;
+  color: #dfdfdf;
 }
 
 .row {
@@ -259,7 +259,7 @@
   padding: 1.5rem;
 }
 .footer-box .box-left {
-  color: #090909;
+  color: #dfdfdf;
 }
 .footer-box .box-left .footer-logo {
   max-width: 7rem;
@@ -273,7 +273,7 @@
   gap: 3rem;
 }
 .footer-box .d-flex .listbox-footer .list-title {
-  color: #090909;
+  color: #dfdfdf;
 }
 .footer-box .d-flex .listbox-footer .list-footer {
   list-style-type: none;
@@ -282,10 +282,10 @@
 .footer-box .d-flex .listbox-footer .list-footer .item-footer {
   text-align: left;
   font-weight: 400;
-  color: #090909;
+  color: #dfdfdf;
 }
 .footer-box .d-flex .listbox-footer .list-footer .item-footer a {
-  color: #090909;
+  color: #dfdfdf;
   text-decoration: none;
 }
 
@@ -333,4 +333,12 @@ footer {
 .img-Sheikh {
   max-width: 100%;
   border-radius: 12px;
+}
+
+.list-bad {
+  list-style-type: none;
+  padding: 0;
+}
+.list-bad .rooz-bad {
+  color: #Dfdfdf;
 }/*# sourceMappingURL=style.css.map */
