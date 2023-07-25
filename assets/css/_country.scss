@@ -1,34 +1,44 @@
 .c-1 {
     .c-11 {
-        .img-team-slider {
-            .imgTeam {
-                max-width: 100%;
-                .swiper-wrapper {
+        background: #660000aa;
+        padding: 0.8rem 0.5rem;
+        margin-bottom: 2rem;
+        border-radius: 1rem;
+        .c-111 {
+            .img-vip-slider {
+                .imgSoldier {
                     max-width: 100%;
-                    .swiper-slide {
+                    .swiper-wrapper {
                         max-width: 100%;
-                        .team-img {
+                        border-radius: 0.8rem;
+                        .swiper-slide {
                             max-width: 100%;
+                            border-radius: 0.8rem;
+                            .team-img {
+                                max-width: 100%;
+                                border-radius: 1rem;
+                            }
                         }
                     }
                 }
             }
-        }
-        .text-team-slider {
-            .discTeam {
-                // max-width: 100%;
-                .swiper-wrapper {
+            .text-vip-slider {
+                .discSoldier {
                     // max-width: 100%;
-                    .swiper-slide {
+                    .swiper-wrapper {
                         // max-width: 100%;
-                        .disc-team {
+                        .swiper-slide {
                             // max-width: 100%;
-                            width: 10rem;
-                            background-color: #181818;
+                            .disc-team {
+                                // min-height: 35rem;
+                                // background-color: #181818;
+                                color: #dfdfdf;
+                            }
                         }
                     }
                 }
             }
+            
         }
     }  
     .c-12 {
@@ -38,10 +48,13 @@
                     max-width: 100%;
                     .swiper-wrapper {
                         max-width: 100%;
+                        border-radius: 0.8rem;
                         .swiper-slide {
                             max-width: 100%;
+                            border-radius: 0.8rem;
                             .team-img {
                                 max-width: 100%;
+                                border-radius: 1rem;
                             }
                         }
                     }
@@ -55,9 +68,9 @@
                         .swiper-slide {
                             // max-width: 100%;
                             .disc-team {
-                                // max-width: 100%;
-                                width: 10rem;
+                                min-height: 12rem;
                                 background-color: #181818;
+                                color: #dfdfdf;
                             }
                         }
                     }
