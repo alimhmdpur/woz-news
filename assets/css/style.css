@@ -361,4 +361,12 @@ footer {
 
 .swiper-button-prev::after {
   color: #Dfdfdf;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  color: #Dfdfdf;
 }/*# sourceMappingURL=style.css.map */
